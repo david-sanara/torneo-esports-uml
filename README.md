@@ -37,7 +37,7 @@ Darán visualizaciones y uso a la plataforma. Podrán usar la plataforma para ve
 
 El "diagrama de casos de uso" queda de la siguiente manera: 
 
-- [[Diagrama de casos de uso.]](https://github.com/david-sanara/AD-3.-Diagramas-UML/blob/main/Diagrama%20de%20Usos%20Definitivo%20Act3%20EEDD%20UML.drawio.png)
+- [[Diagrama de casos de uso.]](https://github.com/david-sanara/AD-3.-Diagramas-UML/blob/main/img/DiagramaUsosDefAct3EEDDUML.drawio.png)
 
 Para el "Diagrama de clases", he omitido los "getters/setters", "equals & hashCode", "constructores vacíos y llenos" y "toString para no ser repetitivo y resducir el volumen de trabajo. Las clases que he determinado son:
 
@@ -69,7 +69,7 @@ Finalmente, he creado una última clase llamada "Estadística".
 
 El "diagrama de clases" quedaría de la siguiente manera: 
 
-- [[Diagrama de clases.]](https://github.com/david-sanara/AD-3.-Diagramas-UML/blob/main/Diagrama%20de%20Clases%20Definitivo%20Act3%20EEDD%20UML.jpg)
+- [[Diagrama de clases.]](https://github.com/david-sanara/AD-3.-Diagramas-UML/blob/main/img/DiagramaClasesDefAct3EEDDUML.jpg)
 
 ## CONCLUSIÓN: 
 La plataforma para eSports, está basada en unos actores que a través de partidas en consolas y otra plataforma de visualización, se basa en "Crear", "Gestionar" y "Recoger" datos de las partidas, jugadores y otros actores relacionados como los mánagers o los árbitros/comentaristas. Es como un "Sistema de Gestión", el cual se sostendra gracias a las visitas y los patrocinios. Por lo que la figura del árbitro que comenta las partidas será fundamental para generar engagement. 
