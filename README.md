@@ -13,8 +13,8 @@ Por tanto, para el “Diagrama de casos de uso”, he detectado cinco posibles a
 
 - **Administrador**: 
 
-Responsable de la creación de torneos y de generar el emparejamiento de equipos, el cual automáticamente "<<include>>" la comprobación necesaria de que estos equipos estén correctamente inscritos.
-Por eso, tiene tambien la capacidad de inscribir jugadores o equipos en el torneo (en caso de ser necesario). Este uso de "inscripción" "<<include>>" dos usos necesarios, comprobar la existencia de un torneo creado, y que los equipos/jugadores inscritos cumplen los requisitos necesarios para dicho torneo.
+Responsable de la creación de torneos y de generar el emparejamiento de equipos, el cual automáticamente "< < include > >" la comprobación necesaria de que estos equipos estén correctamente inscritos.
+Por eso, tiene tambien la capacidad de inscribir jugadores o equipos en el torneo (en caso de ser necesario). Este uso de "inscripción" "< < include > >" dos usos necesarios, comprobar la existencia de un torneo creado, y que los equipos/jugadores inscritos cumplen los requisitos necesarios para dicho torneo.
 
 El administrador también realiza la asignación del árbitro para el partido, así como de otras gestiones principales como puede ser la de gestionar la clasificación manteniendola actualizada.
 
