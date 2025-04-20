@@ -1,3 +1,5 @@
+
+
 En esta actividad he realizado un análisis de los casos de uso y de clases para una supuesta plataforma de eSports, así como la creación de sus diagramas correspondientes.
 
 Si bien la plataforma podría ser mucho más extensa, he intentado resumir un poco los usos y clases principales para cumplir con la actividad, dentro de las limitaciones actuales.
@@ -35,7 +37,7 @@ Darán visualizaciones y uso a la plataforma. Podrán usar la plataforma para ve
 
 El "diagrama de casos de uso" queda de la siguiente manera: 
 
-- [Diagrama de casos de uso.](Diagrama de Usos Definitivo Act3 EEDD UML.drawio.png)
+- [[Diagrama de casos de uso.]](https://github.com/david-sanara/AD-3.-Diagramas-UML/blob/main/Diagrama%20de%20Usos%20Definitivo%20Act3%20EEDD%20UML.drawio.png)
 
 Para el "Diagrama de clases", he omitido los "getters/setters", "equals & hashCode", "constructores vacíos y llenos" y "toString para no ser repetitivo y resducir el volumen de trabajo. Las clases que he determinado son:
 
@@ -67,7 +69,7 @@ Finalmente, he creado una última clase llamada "Estadística".
 
 El "diagrama de clases" quedaría de la siguiente manera: 
 
-- [Diagrama de clases.] (Diagrama de Clases Definitivo Act3 EEDD UML.jpg)
+- [[Diagrama de clases.]](https://github.com/david-sanara/AD-3.-Diagramas-UML/blob/main/Diagrama%20de%20Clases%20Definitivo%20Act3%20EEDD%20UML.jpg)
 
 CONCLUSIÓN: La plataforma para eSports, está basada en unos actores que a través de partidas en consolas y otra plataforma de visualización, se basa en "Crear", "Gestionar" y "Recoger" datos de las partidas, jugadores y otros actores relacionados como los mánagers o los árbitros/comentaristas. Es como un "Sistema de Gestión", el cual se sostendra gracias a las visitas y los patrocinios. Por lo que la figura del árbitro que comenta las partidas será fundamental para generar engagement. 
 Una vez realizado el diagrama de casos de uso y tener claro quienes van a interactuar con nuetra plataforma y qué usos necesitaremos (podría poner muchos más pero el trabajo se estaba alargando demasiado), he pasado al diagrama de clases teniendo en cuenta cuales serían las clases a programar y los atributos que podrían formar estas. Además, los métodos que cada clase puede generar, no tiene por qué ser usado exclusivamente por un actor, es decir, un actor podría tener acceso a varios métodos de diferentes clases.
