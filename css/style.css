@@ -5,11 +5,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+    background-image: url(../img/backUML.png);
+    background-size: cover;
   }
   
   h1, h2 {
-    color: #ff4d4d; 
+    color: #7aff4d; 
     text-align: center;
+    text-decoration: underline;
   }
   
   a {
@@ -39,6 +42,8 @@ body {
 
   div {
     margin-top: 5px;
+    text-align: center;
+    font-size: medium;
   }
 .actor {
     color: #87cefa;
