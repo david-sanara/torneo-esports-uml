@@ -1,0 +1,57 @@
+<!-- Tabla de Clases -->
+<h2 style="text-align:center;">Resumen de Clases</h2>
+<table border="1" style="margin:auto; border-collapse: collapse;">
+  <tr>
+    <th>Clase</th>
+    <th>Descripción</th>
+  </tr>
+  <tr><td>Torneo</td><td>Contiene ID, nombre, listas de equipos, partidas, clasificación, y fecha. Administra torneos y clasificaciones.</td></tr>
+  <tr><td>Equipo</td><td>ID, nombre y lista de jugadores. Métodos: registrar equipo, añadir jugadores, inscribir equipo, consultar.</td></tr>
+  <tr><td>Clasificación</td><td>Listas de equipos, jugadores, clubs, puntos, posiciones, fecha, FK a Torneo. Métodos: ver y actualizar clasificación.</td></tr>
+  <tr><td>Partida</td><td>ID, equipo1, equipo2, fecha y resultado. Métodos: registrar resultado, asignar árbitro.</td></tr>
+  <tr><td>Jugador</td><td>ID, nombre, email. Métodos: registrar, aceptar invitación, enviar solicitud, consultar, inscribirse.</td></tr>
+  <tr><td>Club</td><td>ID, nombre, lista. Métodos: registrar club, añadir equipo.</td></tr>
+  <tr><td>Resultado</td><td>FK a partida, ganador, puntuaciones, penalizaciones. Métodos: establecer resultado, calcular estadísticas.</td></tr>
+  <tr><td>Árbitro</td><td>ID, nombre, lista de partidas. Métodos: modificar resultado, añadir penalización.</td></tr>
+  <tr><td>Estadística</td><td>Objetos generados por resultados. Métodos para mostrar cálculos e info útil al usuario.</td></tr>
+</table>
+
+<!-- Espacio entre tablas -->
+<br><br>
+
+<!-- Tabla de Casos de Uso -->
+<h2 style="text-align:center;">Resumen de Casos de Uso</h2>
+<table border="1" style="margin:auto; border-collapse: collapse;">
+  <tr>
+    <th>Actor</th>
+    <th>Funciones</th>
+  </tr>
+  <tr>
+    <td>Administrador</td>
+    <td>Responsable de la creación de torneos y de generar el emparejamiento de equipos, el cual automáticamente
+        "include" la comprobación necesaria de que estos equipos estén correctamente inscritos.
+       <tr>Por eso, tiene tambien la capacidad
+        de inscribir jugadores o equipos en el torneo (en caso de ser necesario). Este uso de "inscripción" "include"
+        dos usos necesarios, comprobar la existencia de un torneo creado, y que los equipos/jugadores inscritos cumplen los
+        requisitos necesarios para dicho torneo.</tr>
+        <tr>El administrador también realiza la asignación del árbitro para el partido, así como de otras gestiones
+            principales como puede ser la de gestionar la clasificación manteniendola actualizada.</tr></td>
+        
+  </tr>
+  <tr>
+    <td>Árbitro/Comentarista</td>
+    <td>Registra y modifica resultados, sanciona, comenta las partidas.</td>
+  </tr>
+  <tr>
+    <td>Mánager</td>
+    <td>Gestiona equipos/clubs, inscribe, analiza estadísticas, gestiona solicitudes de jugadores.</td>
+  </tr>
+  <tr>
+    <td>Jugadores</td>
+    <td>Participan en partidas, se inscriben (si son individuales), consultan estadísticas.</td>
+  </tr>
+  <tr>
+    <td>Espectadores</td>
+    <td>Visualizan clubes, equipos, jugadores y estadísticas generales.</td>
+  </tr>
+</table>

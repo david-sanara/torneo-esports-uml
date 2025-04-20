@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/UML_logo.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Diagrama de casos de uso</title>
+</head>
+
+<body>
+    <button class='volver'><a href='index.html'>VOLVER</a></button>
+
+    <h1>Diagrama de Casos de Uso</h1>
+    <h3>Para el “Diagrama de casos de uso”, he detectado 5 posibles actores:</h3>
+
+    <ol>
+        <li>
+            <div><span class='actor'>Administrador</span>:
+                Responsable de la creación de torneos y de generar el emparejamiento de equipos, el cual automáticamente
+                "include" la comprobación necesaria de que estos equipos estén correctamente inscritos.
+                <div>Por eso, tiene tambien la capacidad
+                    de inscribir jugadores o equipos en el torneo (en caso de ser necesario). Este uso de "inscripción"
+                    "include"
+                    dos usos necesarios, comprobar la existencia de un torneo creado, y que los equipos/jugadores
+                    inscritos cumplen los
+                    requisitos necesarios para dicho torneo.</div>
+                <div>El administrador también realiza la asignación del árbitro para el partido, así como de otras
+                    gestiones
+                    principales como puede ser la de gestionar la clasificación manteniendola actualizada.</div>
+        </li>
+        <li>
+            <div><span class='actor'>Árbitro/Comentarista</span>:
+                Será la persona que visualice las partidas, las comente, registre los resultados, y además, sancione y
+                pueda
+                incluso modificar el resultado en caso de que sea necesario.</div>
+        </li>
+        <li>
+            <div><span class='actor'>Mánager</span>:
+                Encargados de gestionar equipos y/o clubes. Registran los equipos en las competiciones, visualizan y
+                realizan estratégias buscando mejores jugadores basándose en estadísticas para sus equipos. También
+                podrán
+                tanto aceptar como enviar solicitudes a jugadores, para incluirlos en los equipos que ellos gestionan.
+            </div>
+        </li>
+        <li>
+            <div><span class='actor'>Jugadores</span>:
+                Actores principales que jugan las partidas. Si participan de manera individual (en torneos o eventos
+                individuales), podrán inscribirse ellos mismos. Si están dentro de un grupo serán los mánagers los
+                encargados de hacerlo. También pueden acceder a todos los datos y estadísticas de la plataforma.</div>
+        </li>
+        <li>
+            <div><span class='actor'>Espectadores</span>:
+                Darán visualizaciones y uso a la plataforma. Podrán usar la plataforma para ver los clubes, dentro de
+                estos
+                los equipos, y dentro de estos los jugadores, así como los jugadores individuales y las estadísticas
+                generales. (Tiempo jugado, equipos y puntos por temporada, etc.).</div>
+        </li>
+        </ul>
+        <img src="img/DiagramaUsosDefAct3EEDDUML.drawio.png" alt="Diagrama de Casos de Uso">
+</body>
+
+</html>

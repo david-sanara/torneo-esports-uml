@@ -1,0 +1,89 @@
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f5deb3; 
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h1, h2 {
+    color: #ff4d4d; 
+    text-align: center;
+  }
+  
+  a {
+    color: #87cefa; 
+  }
+  
+    p {
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    height: 50%;
+  }
+
+  #imgindex {
+    display: block;
+    margin: 20px auto;
+    width: 35%;
+    height: 35%;
+  }
+
+  div {
+    margin-top: 5px;
+  }
+.actor {
+    color: #87cefa;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.clase {
+  color: #87cefa;
+  font-weight: bold;
+}
+button.volver {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #ccc;
+
+    padding: 8px 16px;
+    margin: 20px;
+    font-weight: bold;
+}
+button.volver a {
+    color: #fff;
+
+
+}
+
+.subrayado{
+  color: yellow;
+  text-decoration: underline;
+}
+
+button.volver:hover{
+  background-color: rgb(8, 8, 8);
+}
+
+.boton-enlace {
+    display: inline-block;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.boton-enlace:hover {
+    background-color: #cc0000;
+}
