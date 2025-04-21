@@ -82,38 +82,14 @@ Finalmente, he creado una última clase llamada "Estadística".
 
 ### Diagrama de Casos de Uso
 
-- [Diagrama de casos de uso.] (https://github.com/david-sanara/torneo-esports-uml/blob/main/diagrams/casos-uso.png)
+- [[Diagrama de casos de uso.]](https://github.com/david-sanara/torneo-esports-uml/blob/main/diagrams/casos-uso.png)
 
 ### Diagrama de Clases
 
-- [Diagrama de clases.] https://github.com/david-sanara/torneo-esports-uml/blob/main/diagrams/clases.png
+- [[Diagrama de clases.]](https://github.com/david-sanara/torneo-esports-uml/blob/main/diagrams/clases.png) 
 
 ## Conclusiones
 
 La plataforma para eSports, está basada en unos actores que a través de partidas en consolas y otra plataforma de visualización, se basa en "Crear", "Gestionar" y "Recoger" datos de las partidas, jugadores y otros actores relacionados como los mánagers o los árbitros/comentaristas. Es como un "Sistema de Gestión", el cual se sostendra gracias a las visitas y los patrocinios. Por lo que la figura del árbitro que comenta las partidas será fundamental para generar engagement. 
 Una vez realizado el diagrama de casos de uso y tener claro quienes van a interactuar con nuetra plataforma y qué usos necesitaremos (podría poner muchos más pero el trabajo se estaba alargando demasiado), he pasado al diagrama de clases teniendo en cuenta cuales serían las clases a programar y los atributos que podrían formar estas. Además, los métodos que cada clase puede generar, no tiene por qué ser usado exclusivamente por un actor, es decir, un actor podría tener acceso a varios métodos de diferentes clases.
 La actividad podría haberse alargado bastante más pero se pedía algo resumido.
-
-## Estructura del Proyecto
-
-torneo-esports-uml/ ├── src/
-
-│ ├── es/empresa/torneo/
-
-│ │ ├── modelo/
-
-│ │ ├── control/
-
-│ │ ├── vista/
-
-│ │ ├── Main.java
-
-├── diagrams/
-
-│ ├── casos-uso.png
-
-│ ├── clases.png
-
-├── README.md
-
-├── .gitignore
