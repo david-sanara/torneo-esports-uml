@@ -12,11 +12,11 @@ Repositorio: https://github.com/david-sanara/torneo-esports-uml
 
 Web: https://david-sanara.github.io/torneo-esports-uml/
 
-Este proyecto implementa un sistema de gestión de torneos de eSports utilizando UML para el modelado y Java para la implementación.
-
 En esta actividad he realizado un análisis de los casos de uso y de clases para la plataforma de eSports, así como la creación de sus diagramas correspondientes.
 
 Si bien la plataforma podría ser mucho más extensa, he intentado resumir un poco los usos y clases principales para cumplir con la actividad, dentro de las limitaciones actuales.
+
+## Justificación del diseño
 
 Para la creación de la plataforma debemos tener en cuenta a un actor que administrará la plataforma y sus principales funciones como los torneos, principal elemento de la plataforma, así como los resultados, estadísticas, etc.
 Esta plataforma será usada por jugadores y sus "mánagers", los cuales deben poder acceder al seguimiento de sus estadísticas y deberían poder generar inscripciones en torneo.
@@ -88,7 +88,8 @@ Finalmente, he creado una última clase llamada "Estadística".
 
 - [Diagrama de clases.] https://github.com/david-sanara/torneo-esports-uml/blob/main/diagrams/clases.png
 
-## CONCLUSIÓN: 
+## Conclusiones
+
 La plataforma para eSports, está basada en unos actores que a través de partidas en consolas y otra plataforma de visualización, se basa en "Crear", "Gestionar" y "Recoger" datos de las partidas, jugadores y otros actores relacionados como los mánagers o los árbitros/comentaristas. Es como un "Sistema de Gestión", el cual se sostendra gracias a las visitas y los patrocinios. Por lo que la figura del árbitro que comenta las partidas será fundamental para generar engagement. 
 Una vez realizado el diagrama de casos de uso y tener claro quienes van a interactuar con nuetra plataforma y qué usos necesitaremos (podría poner muchos más pero el trabajo se estaba alargando demasiado), he pasado al diagrama de clases teniendo en cuenta cuales serían las clases a programar y los atributos que podrían formar estas. Además, los métodos que cada clase puede generar, no tiene por qué ser usado exclusivamente por un actor, es decir, un actor podría tener acceso a varios métodos de diferentes clases.
 La actividad podría haberse alargado bastante más pero se pedía algo resumido.
