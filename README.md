@@ -12,11 +12,9 @@ Repositorio: https://github.com/david-sanara/torneo-esports-uml
 
 Web: https://david-sanara.github.io/torneo-esports-uml/
 
-Este proyecto implementa un sistema de gestión de torneos de eSports
+Este proyecto implementa un sistema de gestión de torneos de eSports utilizando UML para el modelado y Java para la implementación.
 
-utilizando UML para el modelado y Java para la implementación.
-
-En esta actividad he realizado un análisis de los casos de uso y de clases para una supuesta plataforma de eSports, así como la creación de sus diagramas correspondientes.
+En esta actividad he realizado un análisis de los casos de uso y de clases para la plataforma de eSports, así como la creación de sus diagramas correspondientes.
 
 Si bien la plataforma podría ser mucho más extensa, he intentado resumir un poco los usos y clases principales para cumplir con la actividad, dentro de las limitaciones actuales.
 
