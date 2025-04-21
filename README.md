@@ -8,7 +8,9 @@ https://github.com/david-sanara
 
 ## Descripción del Proyecto
 
-https://github.com/david-sanara/torneo-esports-uml
+Repositorio: https://github.com/david-sanara/torneo-esports-uml
+
+Web: https://david-sanara.github.io/torneo-esports-uml/
 
 Este proyecto implementa un sistema de gestión de torneos de eSports
 
