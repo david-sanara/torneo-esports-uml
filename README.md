@@ -1,8 +1,18 @@
+# Sistema de Gestión de Torneos de eSports
 
-Web creada en GitPages: https://david-sanara.github.io/AD-3.-Diagramas-UML/
+## Autor
 
+David Sánchez Aragón
 
-# ACTIVIDAD 03 LENGUAJE DE MARCAS. DIAGRAMAS UML.
+https://github.com/david-sanara
+
+## Descripción del Proyecto
+
+https://github.com/david-sanara/torneo-esports-uml
+
+Este proyecto implementa un sistema de gestión de torneos de eSports
+
+utilizando UML para el modelado y Java para la implementación.
 
 En esta actividad he realizado un análisis de los casos de uso y de clases para una supuesta plataforma de eSports, así como la creación de sus diagramas correspondientes.
 
@@ -39,9 +49,6 @@ Actores principales que jugan las partidas. Si participan de manera individual (
 Darán visualizaciones y uso a la plataforma. Podrán usar la plataforma para ver los clubes, dentro de estos los equipos, y dentro de estos los jugadores, así como los jugadores individuales y las estadísticas generales. (Tiempo jugado, equipos y puntos por temporada, etc.).
 
 
-El "diagrama de casos de uso" queda de la siguiente manera: 
-
-- [[Diagrama de casos de uso.]](https://github.com/david-sanara/AD-3.-Diagramas-UML/blob/main/img/DiagramaUsosDefAct3EEDDUML.drawio.png)
 
 Para el "Diagrama de clases", he omitido los "getters/setters", "equals & hashCode", "constructores vacíos y llenos" y "toString para no ser repetitivo y resducir el volumen de trabajo. Las clases que he determinado son:
 
@@ -71,11 +78,41 @@ Finalmente, he creado una última clase llamada "Estadística".
 
 * **Estadística**: Está formada por objetos creados a través del método del cálculo estadístico así como de otros generados por resultados y otros métodos de clases. Todos los métodos que ofrece esta clase son para mostrar los diferentes cálculos estadísticos e información de interés para los usuarios.
 
-El "diagrama de clases" quedaría de la siguiente manera: 
+## Diagramas UML
 
-- [[Diagrama de clases.]](https://github.com/david-sanara/AD-3.-Diagramas-UML/blob/main/img/DiagramaClasesDefAct3EEDDUML.jpg)
+### Diagrama de Casos de Uso
+
+- [Diagrama de casos de uso.] (https://github.com/david-sanara/torneo-esports-uml/blob/main/diagrams/casos-uso.png)
+
+### Diagrama de Clases
+
+- [Diagrama de clases.] https://github.com/david-sanara/torneo-esports-uml/blob/main/diagrams/clases.png
 
 ## CONCLUSIÓN: 
 La plataforma para eSports, está basada en unos actores que a través de partidas en consolas y otra plataforma de visualización, se basa en "Crear", "Gestionar" y "Recoger" datos de las partidas, jugadores y otros actores relacionados como los mánagers o los árbitros/comentaristas. Es como un "Sistema de Gestión", el cual se sostendra gracias a las visitas y los patrocinios. Por lo que la figura del árbitro que comenta las partidas será fundamental para generar engagement. 
 Una vez realizado el diagrama de casos de uso y tener claro quienes van a interactuar con nuetra plataforma y qué usos necesitaremos (podría poner muchos más pero el trabajo se estaba alargando demasiado), he pasado al diagrama de clases teniendo en cuenta cuales serían las clases a programar y los atributos que podrían formar estas. Además, los métodos que cada clase puede generar, no tiene por qué ser usado exclusivamente por un actor, es decir, un actor podría tener acceso a varios métodos de diferentes clases.
 La actividad podría haberse alargado bastante más pero se pedía algo resumido.
+
+## Estructura del Proyecto
+
+torneo-esports-uml/ ├── src/
+
+│ ├── es/empresa/torneo/
+
+│ │ ├── modelo/
+
+│ │ ├── control/
+
+│ │ ├── vista/
+
+│ │ ├── Main.java
+
+├── diagrams/
+
+│ ├── casos-uso.png
+
+│ ├── clases.png
+
+├── README.md
+
+├── .gitignore
