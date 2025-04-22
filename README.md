@@ -18,12 +18,12 @@ Si bien la plataforma podría ser mucho más extensa, he intentado resumir un po
 
 ## Justificación del diseño
 
-Para la creación de la plataforma debemos tener en cuenta a un actor que administrará la plataforma y sus principales funciones como los torneos, principal elemento de la plataforma, así como los resultados, estadísticas, etc.
-Esta plataforma será usada por jugadores y sus "mánagers", los cuales deben poder acceder al seguimiento de sus estadísticas y deberían poder generar inscripciones en torneo.
-Para que las partidas del torneo sean justas, un actor independiente debe visualizarlas e impedir que se realicen trampas o victorias injustas, estos serán los árbitros, los cuales serán los responsables de los resultados así como de comentar las partidas.
-El elemento principal de la plataforma son los espectadores, los cuales mediante registros y visitas, mantendrán viva la plataforma haciéndola interesante para posibles inversionistas que quieran anunciar sus productos en la plataforma, generando beneficios.
+Para la creación de la plataforma debemos tener en cuenta a un actor que administrará la plataforma (**administrador**) y sus principales funciones como los torneos, principal elemento de la plataforma, así como los resultados, estadísticas, etc.
+Esta plataforma será usada por **jugadores** y sus **mánagers** (en caso de tenerlos), los cuales deben poder acceder al seguimiento de sus estadísticas y deberían poder generar inscripciones en torneo.
+Para que las partidas del torneo sean justas, un actor independiente debe visualizarlas e impedir que se realicen trampas o victorias injustas, estos serán los **árbitros**, los cuales serán los responsables de los resultados así como de **comentar las partidas**.
+El elemento principal de la plataforma son los **espectadores**, los cuales mediante registros y visitas, mantendrán viva la plataforma haciéndola interesante para posibles inversionistas que quieran anunciar sus productos en la plataforma, generando beneficios.
 
-Por tanto, para el “Diagrama de casos de uso”, he detectado cinco posibles actores. 
+Por tanto, para el **“Diagrama de casos de uso”**, he detectado cinco posibles actores. 
 
 - **Administrador**: 
 
@@ -50,7 +50,7 @@ Darán visualizaciones y uso a la plataforma. Podrán usar la plataforma para ve
 
 
 
-Para el "Diagrama de clases", he omitido los "getters/setters", "equals & hashCode", "constructores vacíos y llenos" y "toString para no ser repetitivo y resducir el volumen de trabajo. Las clases que he determinado son:
+Para el **"Diagrama de clases"**, he omitido los "getters/setters", "equals & hashCode", "constructores vacíos y llenos" y "toString para no ser repetitivo y resducir el volumen de trabajo. Las clases que he determinado son:
 
 * **Torneo**. En esta clase encontramos su PK que es su id (int), su nombre, tres "List" (equipos, partidas y clasificación) y una fecha (Date).
 Esta clase es la que podrá "crear los Torneos", principal actividad de la plataforma, así como eliminar equipos por diferentes razones (incumplan normas, crados por error, etc.). También será la clase encargada de crear las clasificaciones y de actualizarlas (archivar antiguas clasificaciones, mostrar las nuevas, etc).
