@@ -6,6 +6,15 @@ David Sánchez Aragón
 
 https://github.com/david-sanara
 
+## Índice
+- [Descripción del Proyecto](#descripción-del-proyecto)
+- [Justificación del Diseño](#justificación-del-diseño)
+- [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
+- [Diagrama de Clases](#diagrama-de-clases)
+- [Organización de Clases](#organización-de-clases-entidades-control-e-interfaz)
+- [Convenciones UML](#convenciones-uml-utilizadas)
+- [Conclusiones](#conclusiones)
+
 ## Descripción del Proyecto
 
 Repositorio: https://github.com/david-sanara/torneo-esports-uml
