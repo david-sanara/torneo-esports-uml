@@ -12,7 +12,10 @@
 <body>
     <button class='volver'><a href='index.html'>VOLVER</a></button>
     <h1>Diagrama de Clases</h1>
-    <ul>
+    
+    <h2>Organización de las Clases: Entidades, Control e Interfaz</h2>
+
+<ul>
     <li><div><span class='clase'>Herencia</span>:Representada mediante líneas discontinuas con flecha vacía hacia la "interface" Gestion.</div></li>
     
     <li><div><span class='clase'>Agregación</span>:Representada con rombos vacíos en relaciones de Torneo con Equipo, Clasificación y Partida.</div></li>
@@ -20,6 +23,16 @@
     <li><div><span class='clase'>Multiplicidad</span>:Indicando relaciones 1:1, 1:n y 0:n donde corresponde (por ejemplo, un Torneo puede tener varias
         Partidas, pero cada Partida es parte de un Torneo solo).</div></li>
 </ul>
+
+     <div>Para estructurar de forma lo más correcta posible el sistema, he organizado las clases intentando seguir el patrón de arquitectura modular:
+<ul>
+    <div><span class='clase'>Entidades</span>: Clases que representan objetos reales del sistema: Torneo, Equipo, Partida, Jugador, Club, Resultado, Árbitro, Clasificación y Estadística.</div>
+
+    <div><span class='clase'>Interfaz</span>:He creado la interfaz <span class='clase'>Gestion</span>, que tiene métodos de consulta que usan varias clases como: gestión, inscripción y consulta.</div>
+
+    <div><span class='clase'>Control</span>:La clase <span class='clase'>ControlTorneo</span> va coordinar y centralizar todas las acciones principales sobre los torneos, resultados y las clasificaciones.</div>
+    </div>
+    </ul>
     </div>
         <ul>
             <li> <div><span class='clase'>Torneo:</span> En esta clase encontramos su PK que es su id (int), su nombre, tres "List"
