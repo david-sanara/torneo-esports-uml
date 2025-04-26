@@ -69,7 +69,7 @@ Para estructurar de forma lo más correcta posble el sistema, he organizado las 
 **Entidades**:
 
 * **Torneo**. En esta clase encontramos su PK que es su id (int), su nombre, tres "List" (equipos, partidas y clasificación) y una fecha (Date).
-Objeto pricipal usado por el interfaz para crear Torneos, etc..
+Objeto pricipal usado por el interfaz para crear Torneos, etc.La gestión y coordinación de torneos no es responsabilidad directa de la clase Torneo, sino que se realiza a través de la **clase de control ControlTorneo**.
 
 Seguidamente hay tres clases. Equipo, Clasificación y Partida.
 
