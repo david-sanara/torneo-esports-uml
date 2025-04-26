@@ -23,14 +23,6 @@ Esta plataforma será usada por **jugadores** y sus **mánagers** (en caso de te
 Para que las partidas del torneo sean justas, un actor independiente debe visualizarlas e impedir que se realicen trampas o victorias injustas, estos serán los **árbitros**, los cuales serán los responsables de los resultados así como de **comentar las partidas**.
 El elemento principal de la plataforma son los **espectadores**, los cuales mediante registros y visitas, mantendrán viva la plataforma haciéndola interesante para posibles inversionistas que quieran anunciar sus productos en la plataforma, generando beneficios.
 
-## Organización de las Clases: Entidades, Control e Interfaz
-
-Para estructurar de forma lo más correcta posble el sistema, he organizado las clases intentando seguir el patrón de arquitectura modular:
-
-- **Entidades**: Clases que representan objetos reales del sistema: Torneo, Equipo, Partida, Jugador, Club, Resultado, Árbitro, Clasificación y Estadística.
-- **Interfaz**: He creado la interfaz Gestion, que tiene métodos de consulta que usan varias clases como: gestión, inscripción y consulta.
-- **Control**: La clase ControlTorneo va coordinar y centralizar todas las acciones principales sobre los torneos, resultados y las clasificaciones.
-
 Por tanto, para el **“Diagrama de casos de uso”**, he detectado cinco posibles actores. 
 
 - **Administrador**: 
@@ -57,7 +49,6 @@ Actores principales que juegan las partidas. Si participan de manera individual 
 Darán visualizaciones y uso a la plataforma. Podrán usar la plataforma para ver los clubes, dentro de estos los equipos, y dentro de estos los jugadores, así como los jugadores individuales y las estadísticas generales. (Tiempo jugado, equipos y puntos por temporada, etc.).
 
 
-
 Para el **"Diagrama de clases"**, he omitido los "getters/setters", "equals & hashCode", "constructores vacíos y llenos" y "toString para no ser repetitivo y resducir el volumen de trabajo. 
 
 Sí que he usado:
@@ -67,7 +58,15 @@ Sí que he usado:
 - **Multiplicidad**: Indicando relaciones 1:1, 1:n y 0:n donde corresponde (por ejemplo, un Torneo puede tener varias Partidas, pero cada Partida es parte de un Torneo solo).
 
 
-Las clases que he determinado son:
+## Organización de las Clases: Entidades, Control e Interfaz
+
+Para estructurar de forma lo más correcta posble el sistema, he organizado las clases intentando seguir el patrón de arquitectura modular:
+
+- **Entidades**: Clases que representan objetos reales del sistema: Torneo, Equipo, Partida, Jugador, Club, Resultado, Árbitro, Clasificación y Estadística.
+- **Interfaz**: He creado la interfaz **Gestion**, que tiene métodos de consulta que usan varias clases como: gestión, inscripción y consulta.
+- **Control**: La clase **ControlTorneo** va coordinar y centralizar todas las acciones principales sobre los torneos, resultados y las clasificaciones.
+
+**Entidades**:
 
 * **Torneo**. En esta clase encontramos su PK que es su id (int), su nombre, tres "List" (equipos, partidas y clasificación) y una fecha (Date).
 Esta clase es la que podrá "crear los Torneos", principal actividad de la plataforma, así como eliminar equipos por diferentes razones (incumplan normas, crados por error, etc.). También será la clase encargada de crear las clasificaciones y de actualizarlas (archivar antiguas clasificaciones, mostrar las nuevas, etc).
